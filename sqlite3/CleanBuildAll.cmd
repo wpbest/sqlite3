@@ -1,0 +1,12 @@
+msbuild sqlite3.sln /t:Clean /p:Platform=ARM /p:Configuration=Debug
+msbuild sqlite3.sln /t:Clean /p:Platform=ARM /p:Configuration=Release
+msbuild sqlite3.sln /t:Clean /p:Platform=x86 /p:Configuration=Debug
+msbuild sqlite3.sln /t:Clean /p:Platform=x86 /p:Configuration=Release
+msbuild sqlite3.sln /t:Clean /p:Platform=x64 /p:Configuration=Debug
+msbuild sqlite3.sln /t:Clean /p:Platform=x64 /p:Configuration=Release
+msbuild sqlite3.sln /t:Build /p:Platform=ARM /p:Configuration=Debug
+msbuild sqlite3.sln /t:Build /p:Platform=ARM /p:Configuration=Release
+msbuild sqlite3.sln /t:Build /p:Platform=x86 /p:Configuration=Debug
+msbuild sqlite3.sln /t:Build /p:Platform=x86 /p:Configuration=Release
+msbuild sqlite3.sln /t:Build /p:Platform=x64 /p:Configuration=Debug
+msbuild sqlite3.sln /t:Build /p:Platform=x64 /p:Configuration=Release

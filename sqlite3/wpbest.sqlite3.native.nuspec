@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata minClientVersion="3.2">
+        <id>wpbest.sqlite3.native</id>
+        <title>SQLite Library for Windows 10 UWP Native</title>
+        <version>3.12.2.0</version>
+        <authors>SQLite</authors>
+        <owners>SQLite</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Easily add SQLite to your applications. The SQLite Native Library for Universal Windows Platform</description>
+        <summary>SQLite UWP Native library</summary>
+        <releaseNotes>SQLite</releaseNotes>
+        <copyright>Copyright © SQLite</copyright>
+        <tags>SQLite UWP Native</tags>
+    </metadata>
+    <files>
+        <file src="wpbest.sqlite3.native.targets"                target="build\native\" />
+        <file src="sqlite3\sqlite3.h"                            target="build\native\include\" />
+        <file src="sqlite3\sqlite3ext.h"                         target="build\native\include\" />
+        <file src="Output\Bin\sqlite3\Win32\Debug\sqlite3.lib"   target="build\native\win10-x86\" />
+        <file src="Output\Bin\sqlite3\Win32\Debug\sqlite3.dll"   target="build\native\win10-x86\" />
+        <file src="Output\Bin\sqlite3\Win32\Debug\sqlite3.pdb"   target="build\native\win10-x86\" />
+        <file src="Output\Bin\sqlite3\Win32\Debug\sqlite3.pri"   target="build\native\win10-x86\" />
+        <file src="Output\Bin\sqlite3\x64\Debug\sqlite3.lib"     target="build\native\win10-x64\" />
+        <file src="Output\Bin\sqlite3\x64\Debug\sqlite3.dll"     target="build\native\win10-x64\" />
+        <file src="Output\Bin\sqlite3\x64\Debug\sqlite3.pdb"     target="build\native\win10-x64\" />
+        <file src="Output\Bin\sqlite3\x64\Debug\sqlite3.pri"     target="build\native\win10-x64\" />
+        <file src="Output\Bin\sqlite3\ARM\Debug\sqlite3.lib"     target="build\native\win10-arm\" />
+        <file src="Output\Bin\sqlite3\ARM\Debug\sqlite3.dll"     target="build\native\win10-arm\" />
+        <file src="Output\Bin\sqlite3\ARM\Debug\sqlite3.pdb"     target="build\native\win10-arm\" />
+        <file src="Output\Bin\sqlite3\ARM\Debug\sqlite3.pri"     target="build\native\win10-arm\" />
+        <file src="Output\Bin\sqlite3\Win32\Release\sqlite3.lib" target="runtimes\win10-x86\native\" />
+        <file src="Output\Bin\sqlite3\Win32\Release\sqlite3.dll" target="runtimes\win10-x86\native\" />
+        <file src="Output\Bin\sqlite3\Win32\Release\sqlite3.pdb" target="runtimes\win10-x86\native\" />
+        <file src="Output\Bin\sqlite3\Win32\Release\sqlite3.pri" target="runtimes\win10-x86\native\" />
+        <file src="Output\Bin\sqlite3\x64\Release\sqlite3.lib"   target="runtimes\win10-x64\native\" />
+        <file src="Output\Bin\sqlite3\x64\Release\sqlite3.dll"   target="runtimes\win10-x64\native\" />
+        <file src="Output\Bin\sqlite3\x64\Release\sqlite3.pdb"   target="runtimes\win10-x64\native\" />
+        <file src="Output\Bin\sqlite3\x64\Release\sqlite3.pri"   target="runtimes\win10-x64\native\" />
+        <file src="Output\Bin\sqlite3\ARM\Release\sqlite3.lib"   target="runtimes\win10-arm\native\" />
+        <file src="Output\Bin\sqlite3\ARM\Release\sqlite3.dll"   target="runtimes\win10-arm\native\" />
+        <file src="Output\Bin\sqlite3\ARM\Release\sqlite3.pdb"   target="runtimes\win10-arm\native\" />
+        <file src="Output\Bin\sqlite3\ARM\Release\sqlite3.pri"   target="runtimes\win10-arm\native\" /> 
+    </files>
+</package>
